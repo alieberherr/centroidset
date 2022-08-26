@@ -12,7 +12,7 @@ Data set to learn the force on the centroid and the dipole moment.
 
 4. For each configuration, the force on the centroid and the dipole moment of the centroid are averaged over fluctuations of the ring polymer internal modes. The internal modes are all shifted to the same frequency $\Omega$, which is close to the system's physical frequencies. The fluctuations are integrated with time step $\delta t = \frac{\pi}{i_\mathrm{cyc}\Omega}$, $i_\mathrm{cyc}$ = 20 (ie. 40 steps per oscillation).
 
-5. The data is written to disk. The first row of the data file contains the number of carbons $n_\mathrm{C}$, the number of hydrogens $n_\mathrm{H}$ and the number of sample points. Each following row contains (in this order) the centroid configuration in Angstrom, the difference of the averaged force on the centroid to the classical force $f_c - f_\mathrm{cl}$, the averaged dipole moment and the difference of the averaged dipole moment to the classical dipole moment $\mu_c - \mu_\mathrm{cl}$
+5. The data is written to disk. The first row of the data file contains the number of carbons $n_\mathrm{C}$, the number of hydrogens $n_\mathrm{H}$ and the number of sample points. Each following row contains (in this order) the centroid configuration in atomic units, the difference of the averaged force on the centroid to the classical force $f_c - f_\mathrm{cl}$, the averaged dipole moment and the difference of the averaged dipole moment to the classical dipole moment $\mu_c - \mu_\mathrm{cl}$
 
 
 ## Current data sets:
